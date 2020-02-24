@@ -1,0 +1,17 @@
+{
+  "name": "socker-sample",
+  "version": "1.0.0",
+  "description": "socket server sample serving front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node src/app.js"
+  },
+  "author": "igor.silva",
+  "license": "ISC",
+  "dependencies": {
+    "@types/socket.io": "^2.1.4",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
